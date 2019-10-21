@@ -4,7 +4,7 @@ Contacts is a small application to demonstrate Full Stack Development using **.N
 
 ## Description
 
-The server application follows Clean Architecture and CQRS design pattern to implement a Web API project which exposes the API methods for creating, fetching and deleting records.
+The server application follows Clean Architecture and CQRS design pattern to implement a Web API project which exposes the API methods for creating, fetching and deleting records. This project uses **SQLite** database to store data
 
 | Project | Description |
 | ------- | ----------- |

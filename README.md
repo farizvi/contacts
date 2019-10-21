@@ -20,20 +20,20 @@ Follow these steps to run the application
 
 1. Clone the repository
 2. At the root directory, restore required packages by running:
-      ```
+      ```bash
      dotnet restore
      ```
 3. Navigate to `\API` directory and start the back end by executing 
-    ```
+    ```bash
     dotnet watch run
     ```
 
 4. In another command prompt / terminal window navigate to `client-app` directory and install the npm packages for client application by executing
-    ```
+    ```bash
     npm install
     ```
 
 5. Start the client applicaiton by executing
-    ```
+    ```bash
     npm start
     ```

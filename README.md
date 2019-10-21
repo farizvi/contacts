@@ -16,19 +16,24 @@ The server application follows Clean Architecture and CQRS design pattern to imp
 
 ## How to run the application
 
-To run the server application
+Follow these steps to run the application
 
-```bash
-cd API/
-dotnet watch run
-```
+1. Clone the repository
+2. At the root directory, restore required packages by running:
+      ```
+     dotnet restore
+     ```
+3. Navigate to `\API` directory and start the back end by executing 
+    ```
+    dotnet watch run
+    ```
 
-To run the client application
+4. In another command prompt / terminal window navigate to `client-app` directory and install the npm packages for client application by executing
+    ```
+    npm install
+    ```
 
-```bash
-cd client-app
-
-npm install
-
-npm start
-```
+5. Start the client applicaiton by executing
+    ```
+    npm start
+    ```

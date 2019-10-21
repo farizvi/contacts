@@ -9,7 +9,7 @@ The server application follows Clean Architecture and CQRS design pattern to imp
 | Project | Description |
 | ------- | ----------- |
 | API     | Web API project |
-| Application  | This project consists of the business logic |
+| Application  | This project consists of the business logic. It is dependent on Domain layer but has no dependencies on any other layers |
 | Domain  | The project consists of domain entities |
 | Persistence | This project contains all database related stuff |
 | client-app  | This the front-end application developed using ReactJS |

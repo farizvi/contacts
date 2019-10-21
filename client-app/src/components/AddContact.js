@@ -42,7 +42,8 @@ class AddContact extends React.Component {
               name="name"
               onChange={ this.handleInputChange }
               value={ this.state.name }
-            />
+              required
+            />            
           </div>
           <div className="form-group">
               <input
@@ -52,6 +53,7 @@ class AddContact extends React.Component {
               name="email"
               onChange={ this.handleInputChange }
               value={ this.state.email }
+              required
             />
           </div>
           <div className="form-group">
@@ -62,7 +64,8 @@ class AddContact extends React.Component {
               className="form-control"
               name="message"
               onChange={ this.handleInputChange }
-              value={ this.state.message }>
+              value={ this.state.message }
+              required>
             </textarea>
           </div>
           <div className="form-group">

@@ -11,13 +11,21 @@ const stylesApp = {
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="row" style={ stylesApp }>
-          <div className="col-md-6">
-            <AddNewContact />
+      <div>
+        <nav className="navbar navbar-expand-sm bg-primary navbar-dark">
+          <div className="navbar-brand">
+            Contact Form
           </div>
-          <div className="col-md-6">
-            <ContactsList />
+        </nav>
+        <br></br>
+        <div className="container">
+          <div className="row" style={stylesApp}>
+            <div className="col-md-6">
+              <AddNewContact />
+            </div>
+            <div className="col-md-6">
+              <ContactsList />
+            </div>
           </div>
         </div>
       </div>
